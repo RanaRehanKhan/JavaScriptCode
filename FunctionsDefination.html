@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Function</title>
+</head>
+
+<body>
+    <h2>JavaScript Functions</h2>
+
+    <p>Function help us to reuse the code and not need to write code again and again.</p>
+
+    <p id="demo"></p>
+
+    <script>
+        // Arrow Functions
+        // You don't need the function keyword, 
+        // the return keyword, and the curly brackets.
+        
+        var x = (x, y) => x * y;
+        
+        
+        // Functions are Objects
+        // The toString() method returns the function as a string:
+        // function myFunction(a, b) {
+        //     return a * b;
+        // }
+        // document.getElementById("demo").innerHTML = myFunction.toString();
+
+
+
+        // JavaScript functions have both properties and methods.
+        // The arguments.length property returns the number
+        //  of arguments received when the function was invoked: 
+
+
+        // function myFunction(a, b) {
+        //     return arguments.length;
+        // }
+        // document.getElementById("demo").innerHTML = "Total argumenta are: " + myFunction(4, 3);
+
+        // Functions Can Be Used as Values
+        // function myFunction(a, b){
+        //     return a * b;
+        // }
+
+        // let x = myFunction(4, 3);
+        // document.getElementById("demo").innerHTML = x;
+
+
+        // Self-Invoking Functions
+        // (function(){
+        //     document.getElementById('demo').innerHTML = "Hello World! I called myself";
+        // })();
+
+        // Function Hoisting
+        // myFunction(5);
+
+        // function myFunction(y) {
+        //     return y * y;
+        // }
+
+
+        // The Function() Constructor
+        // const myFunction = new Function("a", "b", "return a * b");
+        // const myFunction = function(a, b){return a * b}
+        // document.getElementById("demo").innerHTML = myFunction(5, 6)
+
+
+        // Function Expressions
+        // const x = function (a, b) { return a * b };
+        // document.getElementById("demo").innerHTML = x;
+        // const x = function (a, b) { return a * b };
+        // document.getElementById("demo").innerHTML = x(4, 3);
+
+        // Function Declarations
+        // var x = myFunction(4, 3);
+        // document.getElementById("demo").innerHTML = x;
+        // function myFunction(a, b) {
+        //     return a * b;
+        // }
+    </script>
+</body>
+
+</html>

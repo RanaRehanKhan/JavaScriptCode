@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- <button type="button" onclick="myFunction()"> Fruits</button>
+    <p id="demo"></p>
+    <script>
+        const fruits = ["Banana", "Apple", "Orange", "Grapes"]
+        document.getElementById('demo').innerHTML = fruits;
+        function myFunction(){
+            
+            document.getElementById('demo').innerHTML = fruits.reverse();
+            
+        }
+        
+    </script> -->
+    <h2>JavaScript Arrays</h2>
+    <p>Practice of Arrays</p>
+    <!-- <button type="button" onclick="myFunction()">Sort Arreay</button> -->
+    <p id="demo"></p>
+    <script>
+          const fruits = ["Banana", "Apple", "Orange", "Mango", "Mango"];
+
+        //   Array.includes()
+        document.getElementById("demo").innerHTML = fruits.includes("Mango");
+        
+        //   Array.lastIndexOf()
+        //   let position = fruits.lastIndexOf("Mango") + 1;
+        //   document.getElementById("demo").innerHTML = "The position of Mango is " + position;
+        
+        
+        //Array.indexOf()
+        //   let position = fruits.indexOf("Mango") + 1;
+        //   document.getElementById("demo").innerHTML = "The position of Mango is " + position;
+
+
+
+        // const numbers = [40, 15, 30, 45, 35, 25, 89, 56, 75, 67];
+        // Array.some()
+        // let someOver18 = numbers.some(myFunction);
+        //document.getElementById("demo").innerHTML = "Some over 18 is " + someOver18;
+
+        // function myFunction(value, index, array) {
+        //     return value > 18;
+        // }
+
+    //Array.every()
+    // let allOver18 = numbers.every(myFunction);
+    //document.getElementById("demo").innerHTML = "Allover 18 is " + allOver18;
+
+    // function myFunction(value, index, array) {
+    // return value > 18;
+    // }
+
+
+    //Array.reduceRight()
+    // let sum = numbers.reduceRight(myFunction);
+
+    // document.getElementById("demo").innerHTML = "The sum is " + sum;
+
+    // function myFunction(total, value) {
+    // return total + value;
+    // }
+
+
+
+    //Array.reduce()
+    // let sum = numbers1.reduce(myFunction);
+    // //let sum = numbers1.reduce(myFunction, 500); // 500 is intial value 
+    // document.getElementById("demo").innerHTML = "The sum is: " +  sum;
+
+    // function myFunction(total, value){
+    //     return total +  value;
+    // }
+
+    // Array.filter()
+    // const Over30 = numbers1.filter(myFunction);
+    // document.getElementById("demo").innerHTML = Over30;
+
+    // function myFunction(value){
+    //     return value > 30;
+
+    // }
+
+
+    // // Array.map()
+    // const numbers2 = numbers1.map(myFunction);
+    // document.getElementById("demo").innerHTML = numbers2;
+
+    // function myFunction(value){
+    //     return value * 2;
+    // }
+    // Array.forEach()
+    // let txt = "";
+    // numbers.forEach(myFunction);
+    // document.getElementById("demo").innerHTML = txt;
+
+    // function myFunction(value, index, array){
+    //     txt += value + "<br>";
+    // }
+
+    //Compare Method to sort numbers in JAva script
+    // document.getElementById("demo").innerHTML = myFunction(points);
+
+    // function myFunction(arr){
+    //     points.sort(function(a, b){ return a - b } );
+    //       document.getElementById("demo").innerHTML = points; 
+    //     return Math.max.apply(null, arr);
+    //     let len = arr.length;
+    //     let min = Infinity;
+    //     while(len--){
+    //         if(arr[len] <  min){
+    //             min = arr[len];
+    //         }
+    //     }   
+    //       return min;
+    // }
+    </script>
+</body>
+
+</html>
